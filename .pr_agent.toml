@@ -1,9 +1,17 @@
 [github_app]
 pr_commands = [
-   "/compliance"
+   "/describe",
+    "/review",
+    "/improve",
+    "/compliance",
 ]
 
-[pr_compliance] # /review #
+
+[pr_reviewer] # /review #
+# enable/disable features
+require_estimate_effort_to_review=false
+enable_review_labels_effort=false
 extra_instructions="""\
 (1) Answer in Japanese
+...
 """
