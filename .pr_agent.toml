@@ -1,9 +1,9 @@
 [github_app]
 pr_commands = [
-   "/describe"
+   "/compliance"
 ]
 
-[pr_describe] # /review #
+[pr_compliance] # /review #
 extra_instructions="""\
 (1) Answer in Japanese
 """
