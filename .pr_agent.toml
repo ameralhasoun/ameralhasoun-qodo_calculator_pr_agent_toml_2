@@ -1,4 +1,7 @@
 [github_app]
+pr_commands = [
+   "/describe"
+]
 
 [pr_describe] # /review #
 extra_instructions="""\
