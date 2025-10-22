@@ -8,5 +8,5 @@ pr_commands = [
 
 [pr_reviewer] # /review #
 # enable/disable features
-require_estimate_effort_to_review=false
-enable_review_labels_effort=false
+require_estimate_effort_to_review=true
+enable_review_labels_effort=true
